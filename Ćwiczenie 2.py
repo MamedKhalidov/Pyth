@@ -1,5 +1,8 @@
 def uczen(imie, wiek=18):
-    return imie + wiek
+    print("Imie:", imie, "wiek: ", wiek)
 
-print(uczen("Kuba", 16))
-print(uczen("Kuba"))
+imie = input("Podaj imie: ")
+wiek = input("Podaj wiek:")
+
+uczen(imie, wiek)
+uczen(imie)
